@@ -1,21 +1,77 @@
-# 忽略课件文件
-第1章*
-第2章*
-第3章*
-第4章*
-第5章*
-第6章*
-第7章*
-第8章*
-第9章*
+# 依赖目录
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
 
-# 忽略临时文件
-*.tmp
-*.temp
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# 忽略系统文件
+# 目录
 .DS_Store
 Thumbs.db
 
-# 忽略日志文件
+# 日志文件
 *.log
+logs/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE文件
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# 安装包
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Jupyter笔记本检查点
+.ipynb_checkpoints/
+
+# 临时文件
+*.tmp
+*.temp
+
+# 大文件
+*.pdf
+*.zip
+*.rar
+*.7z
+
+# 排除但保留部分PDF文件
+!第1章 数据可视化与matplotlib.pdf
+!第2章 使用matplotlib绘制简单图表.pdf
+!第3章 图表辅助元素的定制.pdf
+!第4章 图表样式美化.pdf
+!第5章 子图的绘制及坐标轴共享.pdf
+!第6章 坐标轴的定制.pdf
+!第7章 绘制3D图表和统计图.pdf
+!第8章 使用matplotlib绘制高级图表.pdf
